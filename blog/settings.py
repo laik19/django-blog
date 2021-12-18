@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.environ.get(
-    'SECRET_KEY', '+ga99@m8781l5hl0d@k&3%b2do$sw!xjpt2)_0eple#(vdxx@('
+    'SECRET_KEY', '+6m3027ygecjw8njgtl4dqo{@k3y#j$uk$yhvi8ymoq{2}it'
 )
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -32,7 +32,7 @@ if os.environ.get('ENV') == 'PRODUCTION':
 else:
     DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['laik19.herokuapp.com']
 
 
 # Application definition
